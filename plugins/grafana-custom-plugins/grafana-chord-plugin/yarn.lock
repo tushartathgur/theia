@@ -4822,10 +4822,10 @@ d3@5.15.0:
     d3-voronoi "1"
     d3-zoom "1"
 
-d3@^7.1.0:
-  version "7.6.1"
-  resolved "https://registry.yarnpkg.com/d3/-/d3-7.6.1.tgz#b21af9563485ed472802f8c611cc43be6c37c40c"
-  integrity sha512-txMTdIHFbcpLx+8a0IFhZsbp+PfBBPt8yfbmukZTQFroKuFqIwqswF0qE5JXWefylaAVpSXFoKm3yP+jpNLFLw==
+d3@^7.8.3:
+  version "7.8.3"
+  resolved "https://registry.yarnpkg.com/d3/-/d3-7.8.3.tgz#b6c862d16368e15bf764c89e248a300a56f2ab40"
+  integrity sha512-cAa866AkPXtt4IzRx6nzGf50uerq6VYks7p/tTH94be4QfhUkyTfJfaxXGPOB5ZRVUZmUV1wcM1dism/Ua0lCw==
   dependencies:
     d3-array "3"
     d3-axis "3"
