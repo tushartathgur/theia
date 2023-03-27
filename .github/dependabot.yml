@@ -1,0 +1,17 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/plugins/grafana-custom-plugins/grafana-chord-plugin"
+    schedule:
+       interval: "daily"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "npm"
+    directory: "/plugins/grafana-custom-plugins/grafana-dependency-plugin"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "npm"
+    directory: "/plugins/grafana-custom-plugins/grafana-sankey-plugin"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
