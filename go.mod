@@ -17,7 +17,7 @@ require (
 	github.com/tidwall/gjson v1.14.1
 	github.com/vmware/go-ipfix v0.5.12
 	golang.org/x/crypto v0.0.0-20220214200702-86341886e292
-	golang.org/x/mod v0.6.0-dev.0.20220106191415-9b9b3d81d5e3
+	golang.org/x/mod v0.9.0
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.24.0
 	k8s.io/apimachinery v0.24.0
