@@ -6,8 +6,8 @@ require (
 	antrea.io/antrea v1.8.0
 	github.com/ClickHouse/clickhouse-go v1.5.4
 	github.com/DATA-DOG/go-sqlmock v1.5.0
-	github.com/containernetworking/plugins v0.8.7
-	github.com/google/uuid v1.1.2
+	github.com/containernetworking/plugins v1.2.0
+	github.com/google/uuid v1.2.0
 	github.com/kevinburke/ssh_config v0.0.0-20190725054713-01f96b0aa0cd
 	github.com/sirupsen/logrus v1.9.0
 	github.com/spf13/afero v1.9.2
@@ -17,7 +17,7 @@ require (
 	github.com/tidwall/gjson v1.14.1
 	github.com/vmware/go-ipfix v0.5.12
 	golang.org/x/crypto v0.0.0-20220214200702-86341886e292
-	golang.org/x/mod v0.6.0-dev.0.20220106191415-9b9b3d81d5e3
+	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.24.0
 	k8s.io/apimachinery v0.24.0
@@ -56,8 +56,8 @@ require (
 require (
 	antrea.io/libOpenflow v0.8.0 // indirect
 	antrea.io/ofnet v0.6.1 // indirect
-	github.com/Microsoft/go-winio v0.4.16-0.20201130162521-d1ffc52c7331 // indirect
-	github.com/Microsoft/hcsshim v0.8.9 // indirect
+	github.com/Microsoft/go-winio v0.4.17 // indirect
+	github.com/Microsoft/hcsshim v0.9.6 // indirect
 	github.com/NYTimes/gziphandler v1.1.1 // indirect
 	github.com/PuerkitoBio/purell v1.1.1 // indirect
 	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578 // indirect
@@ -69,12 +69,12 @@ require (
 	github.com/cenkalti/rpc2 v0.0.0-20180727162946-9642ea02d0aa // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/cloudflare/golz4 v0.0.0-20150217214814-ef862a3cdc58 // indirect
-	github.com/containerd/cgroups v0.0.0-20200531161412-0dbf7f05ba59 // indirect
-	github.com/containernetworking/cni v0.8.1 // indirect
+	github.com/containerd/cgroups v1.0.1 // indirect
+	github.com/containernetworking/cni v1.1.2 // indirect
 	github.com/contiv/libovsdb v0.0.0-20170227191248-d0061a53e358 // indirect
 	github.com/coreos/go-iptables v0.6.0 // indirect
 	github.com/coreos/go-semver v0.3.0 // indirect
-	github.com/coreos/go-systemd/v22 v22.3.2 // indirect
+	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/emicklei/go-restful v2.10.0+incompatible // indirect
 	github.com/evanphx/json-patch v4.12.0+incompatible // indirect
@@ -89,7 +89,7 @@ require (
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/gnostic v0.5.7-v3refs // indirect
-	github.com/google/go-cmp v0.5.5 // indirect
+	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0 // indirect
@@ -109,12 +109,12 @@ require (
 	github.com/prometheus/client_model v0.2.0 // indirect
 	github.com/prometheus/common v0.37.0 // indirect
 	github.com/prometheus/procfs v0.7.3 // indirect
-	github.com/safchain/ethtool v0.0.0-20190326074333-42ed695e3de8 // indirect
+	github.com/safchain/ethtool v0.2.0 // indirect
 	github.com/streamrail/concurrent-map v0.0.0-20160823150647-8bf1e9bacbf6 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.0 // indirect
-	github.com/vishvananda/netlink v1.1.1-0.20211101163509-b10eb8fe5cf6 // indirect
-	github.com/vishvananda/netns v0.0.0-20200728191858-db3c7e526aae // indirect
+	github.com/vishvananda/netlink v1.2.1-beta.2 // indirect
+	github.com/vishvananda/netns v0.0.0-20210104183010-2eb08e3e575f // indirect
 	go.etcd.io/etcd/api/v3 v3.5.1 // indirect
 	go.etcd.io/etcd/client/pkg/v3 v3.5.1 // indirect
 	go.etcd.io/etcd/client/v3 v3.5.1 // indirect
@@ -134,12 +134,12 @@ require (
 	go.uber.org/goleak v1.1.12 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.19.1 // indirect
-	golang.org/x/net v0.0.0-20220225172249-27dd8689420f // indirect
+	golang.org/x/net v0.4.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b // indirect
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
-	golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8 // indirect
-	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/sys v0.4.0 // indirect
+	golang.org/x/term v0.3.0 // indirect
+	golang.org/x/text v0.5.0 // indirect
 	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20220107163113-42d7afdf6368 // indirect
@@ -147,7 +147,7 @@ require (
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/component-base v0.24.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20220328201542-3ee0da9b0b42 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.30 // indirect
