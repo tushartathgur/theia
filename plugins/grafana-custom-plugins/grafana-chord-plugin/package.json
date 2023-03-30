@@ -17,13 +17,14 @@
     "enzyme-adapter-react-16": "^1.15.6",
     "my-d3": "npm:d3@7.1.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "simple-git": "^3.16.0"
   },
   "author": "antrea-io",
   "license": "Apache-2.0",
   "devDependencies": {
     "@grafana/data": "latest",
-    "@grafana/toolkit": "latest",
+    "@grafana/toolkit": "9.4.7",
     "@grafana/ui": "latest",
     "@types/d3": "^7.1.0",
     "@types/enzyme": "^3.10.12",
