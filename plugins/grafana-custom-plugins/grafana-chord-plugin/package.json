@@ -30,7 +30,7 @@
     "my-d3": "npm:d3@7.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "tslib": "2.5.3"
+    "tslib": "2.6.2"
   },
   "author": "antrea-io",
   "license": "Apache-2.0",
